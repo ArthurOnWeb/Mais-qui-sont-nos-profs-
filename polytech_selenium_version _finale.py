@@ -73,7 +73,7 @@ def get_profs() -> list:
     driver.find_element(By.CSS_SELECTOR, 'button.submit').click()
     tempo.sleep(5)
 
-    # récupérer le nom de tous les professeurs en gérant certaines exceptions, je n'ai pas tout traité
+    # récupérer le nom de tous les professeurs en gérant certaines exceptions, je n'ai pas tout traitéhttps://www.binance.com/en/futures-activity/leaderboard/user?encryptedUid=FAD84AAFD6E43900BF15E06B21857715F
 
     matieres = driver.find_element(
         By.XPATH, '/html/body/div[2]/div/div/div/div[2]/div/div[5]/div[3]/div/div/div[2]')
